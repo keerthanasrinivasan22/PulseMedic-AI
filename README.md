@@ -1,4 +1,4 @@
-# 🩺 PulseMedic-AI  
+# PulseMedic-AI  
 ### **Your Personal AI-in-Healthcare News Assistant • Powered by Multi-Agent Intelligence + Local Llama 3.2**
 
 Healthcare AI evolves daily — new models, clinical applications, hospital AI policies, FDA approvals, academic breakthroughs, ethical concerns, and digital health innovations appear across scattered blogs, newsletters, and journals.
@@ -10,7 +10,7 @@ Clinicians, researchers, and students don’t have time to check everywhere.
 This multi-agent system automatically gathers AI-in-healthcare news from trusted sources, filters what truly matters, and summarizes everything into a clean daily digest using a **local Llama 3.2 model (via Ollama)** — completely free, private, and offline.
 
 ---
-## 👥 Team
+## Team
 
 PulseMedic-AI is built by a two-member team:
 
