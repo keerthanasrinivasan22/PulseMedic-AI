@@ -168,9 +168,9 @@ PulseMedic-AI/
 
 ---
 
-# Setup Instructions 
+## Setup Instructions
 
-### **1. Install Python & Ollama**
+### 1. Install Python & Ollama
 
 - Install Python 3.11+
 - Install Ollama: https://ollama.com/download
@@ -179,24 +179,40 @@ Pull the model:
 
 ```bash
 ollama pull llama3.2
+```
 
-2. Clone the Repository
+### 2. Clone the Repository
+
+```bash
 git clone https://github.com/keerthanasrinivasan22/PulseMedic-AI.git
 cd PulseMedic-AI
+```
 
-3. Create & Activate Virtual Environment
+### 3. Create & Activate Virtual Environment
+
+```bash
 python -m venv .venv
-.\.venv\Scripts\activate   # Windows
+.\.venv\Scripts\activate    # Windows
+```
 
-4. Install Dependencies
+### 4. Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-5. Run the Dashboard
+### 5. Run the Dashboard
+
+```bash
 streamlit run app/main.py
-
+```
 
 App will open at:
- http://localhost:8501
+
+```
+http://localhost:8501
+```
+
 
 ### Supported News Sources
 
