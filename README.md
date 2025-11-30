@@ -224,24 +224,19 @@ This ensures clinically grounded and medically relevant updates.
 
 ### Privacy & Security
 
-No API keys
+- No API keys  
+- No cloud model calls  
+- No PHI processed  
+- 100% local Llama 3.2 execution  
+- HIPAA-respectful architecture  
 
-No cloud model calls
-
-No PHI processed
-
-100% local Llama 3.2 execution
-
-HIPAA-respectful architecture
+---
 
 ### Future Enhancements
 
-Optional Gemini agent (bonus points)
+- Optional Gemini agent (bonus points)  
+- Personalized summaries (clinician/student modes)  
+- Cloud deployment via Cloud Run  
+- Daily scheduled email digests  
+- Topic trend analytics & visual insights  
 
-Personalized summaries (clinician/student modes)
-
-Cloud deployment via Cloud Run
-
-Daily scheduled email digests
-
-Topic trend analytics & visual insights
