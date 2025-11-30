@@ -145,7 +145,7 @@ Protects privacy — no cloud, no PHI, no API keys.
 
 ---
 
-# Project Structure
+## Project Structure
 
 PulseMedic-AI/
 │
@@ -180,23 +180,23 @@ Pull the model:
 ```bash
 ollama pull llama3.2
 
-### **2. Clone the Repository**
+2. Clone the Repository
 git clone https://github.com/keerthanasrinivasan22/PulseMedic-AI.git
 cd PulseMedic-AI
 
-### **3. Create & Activate Virtual Environment**
+3. Create & Activate Virtual Environment
 python -m venv .venv
 .\.venv\Scripts\activate   # Windows
 
-### **4. Install Dependencies**
+4. Install Dependencies
 pip install -r requirements.txt
 
-### **5. Run the Dashboard**
+5. Run the Dashboard
 streamlit run app/main.py
 
-####
+
 App will open at:
-http://localhost:8501
+ http://localhost:8501
 
 ### Supported News Sources
 
