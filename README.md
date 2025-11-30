@@ -147,23 +147,29 @@ Protects privacy — no cloud, no PHI, no API keys.
 
 ## Project Structure
 
+```
 PulseMedic-AI/
 │
 ├── app/
-│ └── main.py # Streamlit UI
+│   └── main.py                 # Streamlit UI
 │
 ├── agents/
-│ ├── fetcher_agent.py # Gets articles
-│ ├── filter_agent.py # Filters relevance
-│ ├── summarizer_agent.py # Llama-based summary
-│ ├── personalization_agent.py # Optional personalization
-│ └── init.py
+│   ├── fetcher_agent.py        # Gets articles
+│   ├── filter_agent.py         # Filters relevance
+│   ├── summarizer_agent.py     # Llama-based summary
+│   └── personalization_agent.py # Optional personalization
 │
-├── config/ # Constants / settings
-├── core/ # Optional utilities
-├── .env # Environment variables (ignored)
+├── config/
+│   └── settings.py             # Constants / settings
+│
+├── core/
+│   ├── __init__.py
+│   └── logging_utils.py        # Optional utilities
+│
+├── .env                        # Environment variables (ignored)
 ├── README.md
 └── requirements.txt
+```
 
 
 ---
