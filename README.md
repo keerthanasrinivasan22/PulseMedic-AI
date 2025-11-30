@@ -170,8 +170,9 @@ PulseMedic-AI/
 ├── README.md
 └── requirements.txt
 ```
-
-
+## Demo Video
+Watch the full demo of PulseMedic-AI:  
+https://drive.google.com/file/d/1GuYJ0Xp3ixhj0LSi50zTI2uNAVWVehUL/view?usp=sharing
 ---
 
 ## Setup Instructions
